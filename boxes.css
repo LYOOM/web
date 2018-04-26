@@ -1,0 +1,88 @@
+body{
+    font: 1.125em Calibri;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: 'Salaaaam'
+    clear: left;
+}
+h1{
+    font-family: calibri;
+    font-size: 20px;
+    color: purple;
+}
+.box{
+    border: 0.100em solid #cccccc;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+}
+.box:hover{
+    box-shadow: 3px 1px 10px #a0a0a0;
+}
+.box-red{
+    border-color: red;
+}
+.box-bleu{
+    border-color: blue;
+}
+.box-bleu .box-title{
+    background-color:blue;
+    color: white;
+}
+.box-red .box-title{
+    background-color: red;
+    color: white;
+}
+.box-author{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 4px;
+    right: 3px;
+}
+.box-author img{
+    width: 32px;
+}
+.box-author-name{
+    position: absolute;
+    top: 10px;
+    right: 45px;
+    z-index: 1;
+}
+.box-title{
+    margin: 0;
+    border-bottom-width: 1px;
+    border-bottom: inherit;
+    padding: 8px;
+    font-size: 20px;
+
+}
+.box-img{
+    float: left;
+    width: 220px;
+}
+
+.box-content{
+    padding: 10px;
+    line-height: 20px;
+    text-align: justify;
+    /* background-image: url("https://www.artleo.com/large/201108/7982.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+} 
+.top-page{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.top-page img{
+    width: 40px;
+    opacity: 0.5;
+    transition: opacity 0.4s ease;
+}
+.top-page img:hover{
+    opacity: 1;
+}

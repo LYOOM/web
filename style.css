@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 5;
+    font-family: calibri;
+    font-size: 15px;
+    
+}
+a{
+    color: green;
+    text-decoration: none;
+	background:#d34836;
+	color:#fff;
+	width:100px;
+	border-radius:2px;
+    border:none;
+    margin: 20px;
+    padding: 10px;
+    transition: opacity .5s linear;
+}
+a:hover{
+    text-decoration: underline;
+    color: firebrick;
+    opacity: 0.8;
+    font-size: inherit;
+}
+.bt{
+    display: inline;
+    font:bold 13px Arial;
+	background:#c79220;
+	color:#fff;
+	border-radius:2px;
+    border:none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px;
+    transition: opacity .5s linear;
+
+}
+bt:hover{
+    text-decoration: underline;
+    color: rgb(39, 45, 97);
+    opacity: 0.8;
+}
+.bt-bleu, .bt-green, .bt-orange{
+    color: #fff;
+}
+.bt-bleu{
+    background-color: #478bf9;
+}
+.bt-green{
+    background-color: #096b2a;
+}
+.bt-orange{
+    background-color: rgb(199, 108, 4);
+}
+.btn{
+    margin: 10px 0;
+
+}
+.centrer{
+    width: 960px;
+    margin: 0 auto;
+}
+h1{
+    color: orange;
+    font-size: 20px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px;
+    margin: 20px;
+}
+#main-title{
+    color: rgb(12, 212, 62);
+}
+.p1{
+    color: orange;
+    font-size: 20px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px;
+    margin: 20px;
+}
+.p2{
+    border: 1px solid #333;
+}
+.boite{
+    position: relative;
+    font-size: 13px;
+    width: 960px;
+    margin: 0 auto;
+
+    border-style: solid;
+    border-width: 1px;
+}
+h2{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    background: royalblue;
+    margin: auto;
+    border-radius:2px;
+
+}
+.tab1{
+    margin:0;
+    padding:0;
+    border:  1px solid black;
+}
+.tab2{
+    margin:0;
+    padding:0;
+    border-width: 1px;
+    border-style: solid;
+}
+.titre1{
+    margin:0;
+    padding:0;
+    border-bottom: 1px solid black;
+
+}
+.titre2{
+    background: red;
+    color: rgb(255, 255, 255);
+    margin:0;
+    padding:0;
+    border-bottom: 1px solid black;
+}
