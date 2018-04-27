@@ -6,12 +6,18 @@ body{
     margin: 0 auto;
 }
 .clearfix::after{
-    content: 'Salaaaam'
-    clear: left;
+    visibility: hidden;
+    content: '';
+    clear: both;
+    overflow: hidden;
+    zoom: 1;
+    display: table;
+    height: 0;
+
 }
 h1{
     font-family: calibri;
-    font-size: 20px;
+    font-size: 30px;
     color: purple;
 }
 .box{
@@ -25,6 +31,7 @@ h1{
 }
 .box-red{
     border-color: red;
+    padding: 0 0 5px 0;
 }
 .box-bleu{
     border-color: blue;
