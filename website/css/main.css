@@ -43,3 +43,40 @@ a{
 .sky-title{
     margin: 0; /*margin 0 pour collé le sky au menu*/
 }
+
+.sky-cloud1{
+    position: absolute;
+    top: 30;
+    left: 10px;
+    width: 200px;
+    animation-name: cloudmouveX;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+
+}
+.sky-cloud2{
+    position: absolute;
+    top: 30;
+    left: 10px;
+    animation-name: cloudmouveX;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+.sky-cloud2 img{
+    width: 50%;
+    height: 50%;
+    display: inherit;
+}
+
+@keyframes cloudmouveX{ /*pour l'annimation de nuage*/
+    from{
+        transform: translateX(-550px);
+    }
+    to{
+        transform: translateX(1000px);
+    }
+}
